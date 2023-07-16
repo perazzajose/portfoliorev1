@@ -1,0 +1,37 @@
+body {
+    font-family: 'poppins', sans-serif;  
+    margin: 0;
+    padding: 0;background-image: url(images/pasto.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tecnologias-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tecnologia {
+  margin: 10px;
+  text-align: center;
+}
+
+.tecnologia img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.tecnologia img:hover {
+  transform: scale(0.9);
+}
+
